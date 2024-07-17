@@ -19,8 +19,10 @@ public class OrderLineItems {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "sku_code", nullable = false)
     private String skuCode;
     private BigDecimal price;
     private Integer quantity;
+
 
 }

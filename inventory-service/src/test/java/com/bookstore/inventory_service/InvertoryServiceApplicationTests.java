@@ -1,4 +1,4 @@
-package com.bookstore.invertory_service;
+package com.bookstore.inventory_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
