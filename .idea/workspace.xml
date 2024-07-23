@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d1642b-8760-4a84-ae33-6c76464280ae" name="Changes" comment="services added">
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/inventory_service/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/inventory_service/dto/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/inventory_service/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0f825a98-83d9-4e01-9829-9bb7e6302bce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0f825a98-83d9-4e01-9829-9bb7e6302bce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/invertory_service/InvertoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/inventory_service/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/invertory_service/controller/InventoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/invertory_service/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/inventory_service/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/invertory_service/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/inventory_service/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/bookstore/invertory_service/service/InventoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/com/bookstore/invertory_service/InvertoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/bookstore/inventory_service/InvertoryServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/contoller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/contoller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/model/OrderLineItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/model/OrderLineItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bookstore/order_service/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +72,7 @@
     &quot;Spring Boot.InvertoryServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ProductServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/leylamehtiyeva/Desktop/microservice/inventory-service&quot;,
@@ -188,6 +174,7 @@
       <workItem from="1721121072521" duration="1657000" />
       <workItem from="1721122834984" duration="12878000" />
       <workItem from="1721209534255" duration="4243000" />
+      <workItem from="1721737617565" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="services added">
       <option name="closed" value="true" />
