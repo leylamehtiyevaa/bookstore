@@ -17,12 +17,8 @@ public class OrderController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-//    public String placeOrder(@RequestBody OrderRequest orderRequest) {
-//            orderService.placeOrder(orderRequest);
-//            return "Order Placed Successfully";
-//    }
     public ResponseEntity<String> placeOrder(@RequestBody OrderRequest orderRequest) {
-        System.out.println("OrderRequest received: " + orderRequest);
+        //System.out.println("OrderRequest received: " + orderRequest);
         orderService.placeOrder(orderRequest);
         return ResponseEntity.ok("Order placed successfully");
     }

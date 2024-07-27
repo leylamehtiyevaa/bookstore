@@ -14,11 +14,10 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 public class InventoryService {
-
     private final InventoryRepository inventoryRepository;
-
     @Transactional(readOnly = true)
     public List<InventoryResponse> isInStock(List<String> skuCode) {
+        System.out.println("SKU Codes in Inventory Service: " + skuCode);
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
                 .map(inventory ->
                     InventoryResponse.builder()

@@ -20,9 +20,8 @@ import java.util.UUID;
 @Transactional
 public class OrderService {
 
-    private final OrderRepository orderRepository; //saves to db
-//    private final WebClient webClient;
-    private final WebClient webClient;
+    private final OrderRepository orderRepository;
+    private final WebClient.Builder webClientBuilder;
 
 
     public void placeOrder(OrderRequest orderRequest) {
@@ -41,13 +40,13 @@ public class OrderService {
                 .map(OrderLineItems::getSkuCode)
                 .toList();
 
-//        System.out.println("SKU Codes: " + skuCodes);
+        System.out.println("SKU Codes in Order Service: " + skuCodes);
 //        System.out.println("OrderLineItemsDto List: " + orderRequest.getOrderLineItemsDtoList());
 
 
         //call inventory service and place order to check if product in stock or not
-        InventoryResponse[] inventoryResponseArray = webClient.get()
-                .uri("http://localhost:8082/api/inventory",
+        InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory",
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)
@@ -63,7 +62,6 @@ public class OrderService {
         } else {
             throw new IllegalArgumentException("Product is not in stock, please try again later");
         }
-
     }
 
     private OrderLineItems mapToDto(OrderLineItemsDto orderLineItemsDto) {
