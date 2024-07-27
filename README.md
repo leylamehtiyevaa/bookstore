@@ -2,6 +2,9 @@
 
 This repository contains the code for a bookstore application built using a microservices architecture. The project includes multiple services such as Product Service, Order Service, Inventory Service, and Discovery Service.
 
+## Note
+**This project is still in progress.** Some features may not be fully implemented, and the codebase may undergo significant changes.
+
 ## Services
 
 ### 1. Product Service
